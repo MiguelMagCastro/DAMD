@@ -34,7 +34,7 @@ def cliente_nervoso(id_cliente):
         client.close()
 
 if __name__ == "__main__":
-    print("--- INICIANDO ATAQUE DE 10 CLIENTES SIMULTÂNEOS ---")
+    print("--- INICIANDO ATAQUE DE 200 CLIENTES SIMULTÂNEOS ---")
     
     threads = []
     # Dispara 10 clientes para garantir que a fila estoure
